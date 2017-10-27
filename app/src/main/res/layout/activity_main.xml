@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/playing_index"
+        android:layout_width="130dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/resulttitle"
+        android:gravity="center"
+        android:text="현재 재생중 노래"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/playing_content"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:ellipsize="marquee"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:maxLines="1"
+        android:focusableInTouchMode="true"
+        android:focusable="true"
+        android:scrollHorizontally="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/playing_index"
+        android:background="@drawable/result"
+        android:gravity="center"
+        android:text="1. 프라이머리 - 시스루"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/booking"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/resulttitle"
+        android:gravity="center"
+        android:text="예약중인 리스트"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignLeft="@+id/booking"
+        android:layout_alignStart="@+id/booking"
+        android:layout_below="@+id/booking">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginRight="5dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/content1"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/resulttitle2"
+                android:gravity="center_vertical"
+                android:padding="5dp"
+                android:text="1. 프라이머리 - 시스루"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/content2"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/result"
+                android:gravity="center_vertical"
+                android:padding="5dp"
+                android:text="2. Eminem - Loose yourself"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/content3"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/result"
+                android:gravity="center_vertical"
+                android:padding="5dp"
+                android:text="3. MC Sniper - better than yesterday"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/content4"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/result"
+                android:gravity="center_vertical"
+                android:padding="5dp"
+                android:text="4. Maroon 5 - Sunday Morning"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/content5"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/result"
+                android:gravity="center_vertical"
+                android:padding="5dp"
+                android:text="5. Maroon 5 - payphone"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/content6"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/result"
+                android:gravity="center_vertical"
+                android:padding="5dp"
+                android:text="6. Muse - Time is running out"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/content7"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/result"
+                android:gravity="center_vertical"
+                android:padding="5dp"
+                android:text="7. T-Pain - OClock"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/content8"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/result"
+                android:gravity="center_vertical"
+                android:padding="5dp"
+                android:text="8. 긱스 - Officially Missing you"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/content9"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/result"
+                android:gravity="center_vertical"
+                android:padding="5dp"
+                android:text="9. 러브홀릭스 - Butterfly"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/content10"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/result"
+                android:gravity="center_vertical"
+                android:padding="5dp"
+                android:text="10. Charlie Puth - Attention"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/content11"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/result"
+                android:gravity="center_vertical"
+                android:padding="5dp"
+                android:text="11. 임창정 - 흔한노래"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
