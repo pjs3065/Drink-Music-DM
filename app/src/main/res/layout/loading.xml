@@ -21,8 +21,8 @@
 
     <ImageButton
         android:id="@+id/loading_image"
-        android:layout_width="200dp"
-        android:layout_height="200dp"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="130dp"
         android:background="#dfdfcc"
@@ -33,16 +33,14 @@
         android:id="@+id/search"
         android:layout_width="120dp"
         android:layout_height="120dp"
-        android:layout_below="@+id/loading_image"
-        android:layout_marginEnd="40dp"
-        android:layout_marginRight="40dp"
-        android:layout_marginTop="27dp"
-        android:layout_toLeftOf="@+id/list"
-        android:layout_toStartOf="@+id/list"
         android:background="@drawable/btn_bg_ex"
         android:padding="10dp"
         android:scaleType="centerCrop"
-        android:src="@drawable/magnifier" />
+        android:src="@drawable/magnifier"
+        android:layout_below="@+id/loading_image"
+        android:layout_alignLeft="@+id/loading_image"
+        android:layout_alignStart="@+id/loading_image"
+        android:layout_marginTop="48dp" />
 
     <ImageButton
         android:id="@+id/list"

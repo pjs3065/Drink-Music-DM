@@ -14,14 +14,14 @@ import android.widget.ImageButton;
 public class loadingActivity extends AppCompatActivity {
 
     ImageButton search;
-    ImageButton list;
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.loading);
+        ImageButton list;
+        @Override
+        protected void onCreate(Bundle savedInstanceState) {
+            super.onCreate(savedInstanceState);
+            setContentView(R.layout.loading);
 
-        search = (ImageButton)findViewById(R.id.search);
-        list = (ImageButton)findViewById(R.id.list);
+            search = (ImageButton)findViewById(R.id.search);
+            list = (ImageButton)findViewById(R.id.list);
 
 
         search.setOnClickListener(new View.OnClickListener() {

@@ -40,6 +40,7 @@ public class MainActivity2 extends AppCompatActivity {
             public void onClick(View v) {
                 Toast.makeText(getApplicationContext(),"클릭하신 노래가 예약되었습니다.",Toast.LENGTH_SHORT).show();
                 finish();
+           
             }
         });
 
